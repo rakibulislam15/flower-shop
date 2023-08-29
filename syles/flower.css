@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+.banner {
+    background-color: #E554731A;
+    display: flex;
+    padding: 190px 95px 32px 240px;
+    justify-content: space-around;
+}
+
+.banner-container {
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 0; */
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 600px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* padding: 80px 95px; */
+}
+
+.banner-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    padding-top: 32px;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    border-radius: 5px;
+    margin-top: 32px;
+    border: 0;
+    padding: 20px 43px;
+    color: white;
+    margin-bottom: 140px;
+}
+
+.flower1 {
+    width: 500px;
+    height: 700px;
+    /* margin: 50px 240px 0 90px; */
+    padding-bottom: 0;
+}
