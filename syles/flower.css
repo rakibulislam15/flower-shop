@@ -5,26 +5,32 @@ body {
 
 /* header styles */
 .banner {
+    width: 1300px;
+    height: 750px;
     background-color: #E554731A;
     display: flex;
-    padding: 190px 95px 32px 240px;
-    justify-content: space-around;
+    padding: 24px 30px ;
+    /* margin: 30px; */
+    /* justify-content: space-around; */
 }
 
 .banner-container {
     align-items: center;
-    justify-content: space-between;
-    /* padding-bottom: 0; */
+    justify-content: space-around;
+    padding: 30px 50px;
 }
 
 .banner-title {
+
     color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-    max-width: 600px;
+    font-size: 65px;
+    font-weight: 600;
+    max-width: 650px;
     /* text-align: center; */
     /* text-decoration: none; */
-    /* padding: 80px 95px; */
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    /* margin-top: 30px; */
 }
 
 .banner-discription {
@@ -32,7 +38,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     width: 600px;
-    padding-top: 32px;
+    padding-top: 8pxpx;
 }
 
 .btn-primary {
@@ -47,8 +53,7 @@ body {
 
 .banner-img {
     width: 500px;
-    bottom: 0;
-    height: 800px;
+    height: 723px;
     margin: 50px 240px 0 90px;
 }
 
@@ -123,10 +128,6 @@ body {
 .icon-size {
     weight: 88px;
     height: 88px;
-    /* padding-top: 85px;
-    padding-bottom: 24px;
-    padding-left: 300px;
-    padding-right: 250px; */
     padding: 85px 150px 0px 200px;
     gap: 24px;
 }
@@ -140,6 +141,11 @@ body {
 }
 
 /* poster main part 3 */
+
+.text-primary {
+    color: #E55473;
+}
+
 .poster {
     display: flex;
     width: 1922px;
@@ -231,7 +237,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
     text-align: center font-size: 18px;
     font-weight: 400;
-   
+
 }
 
 #email {
@@ -239,4 +245,33 @@ body {
     height: 64px;
     border-radius: 8px;
     background: #FFF
+}
+
+/* ............footer.............*/
+.footer {
+    background-color: #272727;
+    width: 1300px;
+    height: 449px;
+}
+
+.footer-title {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding-top: 128px;
+}
+
+.footer-discription {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.year {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
