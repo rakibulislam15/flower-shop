@@ -9,9 +9,7 @@ body {
     height: 750px;
     background-color: #E554731A;
     display: flex;
-    padding: 24px 30px ;
-    /* margin: 30px; */
-    /* justify-content: space-around; */
+    padding: 24px 30px;
 }
 
 .banner-container {
@@ -26,11 +24,6 @@ body {
     font-size: 65px;
     font-weight: 600;
     max-width: 650px;
-    /* text-align: center; */
-    /* text-decoration: none; */
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
-    /* margin-top: 30px; */
 }
 
 .banner-discription {
@@ -71,23 +64,16 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
-.img-png6 {
-    max-width: 450px;
-    height: 550px;
-    justify-content: space-around;
-    padding: 110px 75px 0px 75px;
-    border-radius: 300px 300px 0 0;
-    background: rgba(167, 33, 98, 0.15);
-}
+
 
 .img-title {
     color: #272727;
-    font-size: 24px;
-    font-weight: 400;
-    margin-left: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 100px;
     text-decoration: underline;
 }
 
@@ -96,48 +82,60 @@ body {
 .container-box {
     display: flex;
     justify-content: space-around;
-    padding-top: 48px;
+    padding: 64px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.img-png6 {
+    width: 150px;
+    max-width: 250px;
+    height: 300px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 110px 75px 0px 75px;
 }
 
 .img-5 {
-    max-width: 450px;
-    height: 550px;
-    justify-content: space-around;
-    padding: 110px 75px 0px 75px;
-    border-radius: 300px 300px 0 0;
+    width: 150px;
+    max-width: 250px;
+    height: 300px;
     background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0 0;
+    padding: 110px 75px 0px 75px;
 }
 
 .img-7 {
-    max-width: 450px;
-    height: 550px;
-    justify-content: space-around;
-    padding: 110px 75px 0px 75px;
+    width: 150px;
+    max-width: 250px;
+    height: 300px;
     border-radius: 300px 300px 0 0;
+    padding: 110px 75px 0px 75px;
     background: rgba(71, 125, 17, 0.15);
 }
-
+  /*//////////icon////////// */
 .icon {
     display: flex;
     justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
-    margin: 128px 240px;
+    /* padding-left: 50px; */
+    margin: 50px;
 }
 
 .icon-size {
-    weight: 88px;
-    height: 88px;
+    weight: 60px;
+    height: 60px;
+    justify-content: space-around;
     padding: 85px 150px 0px 200px;
-    gap: 24px;
 }
 
 .icon-title {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 16px 48px 50px 48px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 16px 40px 50px 40px;
 }
 
 /* poster main part 3 */
@@ -153,8 +151,6 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     text-align: center;
-    /* padding: 50px 24px; */
-    /* margin: 50px 24px; */
 
 
 }
