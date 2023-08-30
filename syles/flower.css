@@ -45,9 +45,10 @@ body {
     margin-bottom: 140px;
 }
 
-.flower1 {
+.banner-img{
     width: 500px;
-    height: 700px;
-    /* margin: 50px 240px 0 90px; */
-    padding-bottom: 0;
+    /* position: absolute; */
+    bottom: 0;
+    height: 800px;
+    margin: 50px 240px 0 90px; 
 }
