@@ -180,10 +180,7 @@ body {
     width: 318px;
 }
 
-/* blogs */
-/* .blogs{
-    text-align: center;
-} */
+
 
 .social-name {
     color: #272727;
@@ -201,13 +198,45 @@ body {
     padding-top: 24px;
 }
 
-.flower-size {
-    width: 100px;
-    height: 396px;
-    align-items: center;
+.flower-conainer {
     display: flex;
-    /* justify-content: space-around; */
-    justify-content: space-between;
-    gap: 16px;
-    /* margin:48px 240px; */
+    justify-content: space-around;
+    padding: 48px 150px;
+}
+
+.flower-size {
+    width: 200pxpx;
+    ;
+    height: 250px;
+}
+
+.blog-banner {
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-left: 120px;
+    background-image: url("..//Flower Asset/Rectangle\ 9.png");
+    margin: 80PX 150PX;
+    border-radius: 8px;
+}
+
+.blogs-title {
+    color: #272727;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.blogs-names {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center font-size: 18px;
+    font-weight: 400;
+   
+}
+
+#email {
+    width: 400px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF
 }
