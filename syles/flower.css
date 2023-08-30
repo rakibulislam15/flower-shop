@@ -45,28 +45,72 @@ body {
     margin-bottom: 140px;
 }
 
-.banner-img{
+.banner-img {
     width: 500px;
     /* position: absolute; */
     bottom: 0;
     height: 800px;
-    margin: 50px 240px 0 90px; 
+    margin: 50px 240px 0 90px;
 }
+
 /*..............main styles............ */
 /* .main{
     text-align: center;
 } */
-.main-title{
+.main-title {
     text-align: center;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-top: 170px;
 }
-.main-discription{
+
+.main-discription {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    margin-top: 24px;
+    padding-top: 15px;
+}
+
+.img-png6 {
+    max-width: 450px;
+    height: 550px;
+    justify-content: space-around;
+    padding: 110px 75px 0px 75px;
+    border-radius: 300px 300px 0 0;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 150px;
+    text-decoration: underline;
+}
+
+
+
+.container-box{
+    display: flex;
+   justify-content: space-around;
+   padding-top: 48px;
+}
+
+.img-5{
+    max-width: 450px;
+    height: 550px;
+    justify-content: space-around;
+    padding: 110px 75px 0px 75px;
+    border-radius: 300px 300px 0 0;
+    background: rgba(5, 151, 160, 0.15);
+}
+.img-7{
+    max-width: 450px;
+    height: 550px;
+    justify-content: space-around;
+    padding: 110px 75px 0px 75px;
+    border-radius: 300px 300px 0 0;
+    background: rgba(71, 125, 17, 0.15);
 }
